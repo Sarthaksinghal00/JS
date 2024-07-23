@@ -68,7 +68,23 @@
 // console.log("your guess is  right ");
 
 // string 
+// let str="sarthak"
+// console.log(str[3])
 
+//TemplateLiterals (special type string )
+
+//let specialstr=`this is a templateb literal`;
+
+// let obj={
+//     item:"pen",
+//     price: 10,
+// };
+// let output =`the cost of ${obj.item} is ${obj.price} rupees `
+// console.log(output)
+
+
+let sname =prompt("Enter your name");
+console.log("@" + sname + sname.length );
 
 
 
