@@ -4,13 +4,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>hi </title>
+  <title>tic tac tao  </title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <button id="mode"> change mode </button>
-  <p class="ss">ram</p>
+  <div class="msg-container hide">
+    <p id="msg">Winner</p>
+    <button id="new-btn">New Game </button>
+  </div>
+  <main> 
+    <h1> Tic Tac Toe</h1>
+    <div class="container">
+    <div class="game">
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+    </div>
+  </div>
+  <button id="reset-btn">Reset Game</button>
+
+  </main>
+  
   <script src="nine.js"></script>
 </body>
 
